@@ -1,0 +1,49 @@
+{
+    "gpu": {
+        "name": "ASUS Prime GeForce RTX 5070 Ti 16GB GDDR7",
+        "model_number": "PRIME-RTX5070TI-16G",
+        "search_terms": ["ASUS", "5070 Ti", "PRIME", "RTX5070TI"]
+    },
+    "settings": {
+        "check_interval_minutes": 5,
+        "enable_sound_alerts": true,
+        "enable_email_notifications": true
+    },
+    "vendors": {
+        "canada_computers": {
+            "enabled": true,
+            "name": "Canada Computers",
+            "url": "https://www.canadacomputers.com",
+            "notes": "Has stores in Montreal Downtown, Eaton Centre, Laval, Brossard"
+        },
+        "memory_express": {
+            "enabled": true,
+            "name": "Memory Express",
+            "url": "https://www.memoryexpress.com",
+            "notes": "Ships to Quebec"
+        },
+        "best_buy": {
+            "enabled": true,
+            "name": "Best Buy Canada",
+            "url": "https://www.bestbuy.ca",
+            "notes": "Multiple locations in Montreal"
+        },
+        "newegg": {
+            "enabled": true,
+            "name": "Newegg Canada",
+            "url": "https://www.newegg.ca",
+            "notes": "Online only, ships to Montreal"
+        },
+        "amazon": {
+            "enabled": true,
+            "name": "Amazon.ca",
+            "url": "https://www.amazon.ca",
+            "notes": "Fast shipping to Montreal"
+        }
+    },
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "instructions": "Set EMAIL_USER, EMAIL_PASS, and NOTIFY_EMAIL environment variables"
+    }
+}
